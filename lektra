@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>INFO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+<meta name="description" content="Template Login Hotspot Mikrotik Lebaran">
+<meta name="keywords" content="template,login,hotspot,mikrotik,lebaran,murah,gratis">
+<meta http-equiv="Content-Type" content="Type=text/html; charset=utf-8"/>
+<meta content="Indonesia" name="geo.placename"/>
+<meta name="language" content="id" />
+<meta content="templateshop.biz.id" name="Author"/>
+<meta content="all" name="audience"/>
+<meta content="general" name="rating"/>
+<meta name="robots" content="index, follow" />
+
+
+<script>jQuery(function ($) {
+    'use strict';
+    if ($.fn.themeSlider) {
+        $(".templateshopbizid-slidecontainerselamatlebaran").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".templateshopbizid-slider-inner", slideContainer);
+            inner.children().filter("script").remove();
+            var helper = null;
+            
+            if ($.support.themeTransition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".templateshopbizid-slide-item", inner).first().css($.support.themeTransition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+                
+            } else if (browser.ie && browser.version <= 8) {
+                var slidesInfo = {
+
+                };
+                $.each(slidesInfo, function(selector, info) {
+                    processElementMultiplyBg(slideContainer.find(selector), info);
+                });
+            }
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.themeSlider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".templateshopbizid-slidenavigatorselamatlebaran"),
+                helper: helper
+            });
+            
+                        
+        });
+    }
+});
+</script><style>.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-0 { color: #93F466; padding: 0px; vertical-align: top;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-1 { color: #FFFFFF; padding: 0px;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-2 { margin-top: 5px;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-3 { border-spacing: 10px 0px; border-collapse: separate;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-4 { color: #FFFFFF; padding: 5px; vertical-align: middle;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-5 { padding: 0px; vertical-align: top;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-6 { color: #FFFFFF; padding: 10px; vertical-align: top;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-7 { padding: 10px; vertical-align: top;  }
+.templateshopbizid-content .templateshopbizid-postcontent-0 .layout-item-8 { color: #FFFFFF; padding: 0px; vertical-align: top;  }
+.ie7 .templateshopbizid-post .templateshopbizid-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .templateshopbizid-post .templateshopbizid-layout-cell {border:none !important; padding:0 !important; }
+
+.templateshopbizid-slidecontainerselamatlebaran {
+    position: relative;
+        width: 499px;
+    height: 187px;
+        }
+
+.default-responsive .templateshopbizid-header .templateshopbizid-slidecontainerselamatlebaran,
+.responsive .templateshopbizid-header .templateshopbizid-slidecontainerselamatlebaran
+{
+  position: absolute !important;
+}
+
+.responsive .templateshopbizid-pageslider .templateshopbizid-slidecontainerselamatlebaran {
+  position: absolute !important;
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .templateshopbizid-slide-item
+{
+
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .templateshopbizid-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute !important;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .active, .templateshopbizid-slidecontainerselamatlebaran .next, .templateshopbizid-slidecontainerselamatlebaran .prev {
+    display: block;
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .active {
+    opacity: 1;
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .next, .templateshopbizid-slidecontainerselamatlebaran .prev {
+    width: 100%;
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .next.forward, .templateshopbizid-slidecontainerselamatlebaran .prev.back {
+    opacity: 1;
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .active.forward {
+    opacity: 0;
+}
+
+.templateshopbizid-slidecontainerselamatlebaran .active.back {
+    opacity: 0;
+}
+
+
+.templateshopbizid-slidenavigatorselamatlebaran {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 163px;
+  left: 87.17%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.templateshopbizid-slidenavigatorselamatlebaran
+{
+background: #B9C2CB;background: -webkit-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: linear-gradient(to bottom, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+padding:7px;
+}
+.templateshopbizid-slidenavigatorselamatlebaran > a
+{
+background: #728597;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+margin:0 10px 0 0;
+width: 10px;
+height: 10px;
+}
+.templateshopbizid-slidenavigatorselamatlebaran > a.active
+{
+background: #FA681E;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+margin:0 10px 0 0;
+width: 10px;
+height: 10px;
+}
+.templateshopbizid-slidenavigatorselamatlebaran > a:hover
+{
+background: #455B73;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+margin:0 10px 0 0;
+width: 10px;
+height: 10px;
+}
+
+</style></head>
+<body>
+<div id="templateshopbizid-main">
+    <div class="templateshopbizid-sheet clearfix">
+            <div class="templateshopbizid-layout-wrapper">
+                <div class="templateshopbizid-content-layout">
+                    <div class="templateshopbizid-content-layout-row">
+                        <div class="templateshopbizid-layout-cell templateshopbizid-content"><article class="templateshopbizid-post templateshopbizid-article">
+                <div class="templateshopbizid-postcontent templateshopbizid-postcontent-0 clearfix"><div class="templateshopbizid-content-layout">
+    <div>
+    <div class="layout-item-0" style="width: 1%" > </div><div style="width: 169%" >
+
+<!-- SILAHKAN EDIT TEKS DISINI DENGAN NAMA HOTSPOT ANDA -->
+
+<p style="text-align: center;"><span style="font-family: Verdana; font-size: 50px; font-weight: bold; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.984375) 0px 0px 10px;">PAPAN INFORMASI KEGIATAN BAPPEDA-KLU</span><br />
+</p>
+<p style="text-align: center;"><span style="text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-family: Verdana; font-size: 25px;"><strong>Telp: (0370) 
+  619-8239</strong></span></p>
+<p style="text-align: center;"><span style="text-shadow: #171717 1px 0px 0px, #171717 -1px 0px 0px, #171717 0px -1px 0px, #171717 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-family: Verdana; font-size: 20px; color: #93F466;">BAPPEDA KLU Melayani dengan sepenuh hati.</span></p>
+<!-- BATAS EDIT TEKS NAMA HOTSPOT ANDA --></div>
+    </div>
+    </div>
+</div>
+<div class="templateshopbizid-content-layout-wrapper layout-item-2">
+<div class="templateshopbizid-content-layout layout-item-3"> </div>
+</div>
+<div class="templateshopbizid-content-layout-wrapper layout-item-2">
+<div class="templateshopbizid-content-layout layout-item-3"> 
+    <div class="templateshopbizid-content-layout-row"></div>
+    <iframe width="1330" height="780" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=68C4AE38080D8071%21126&authkey=%21AGMxOAcWf0DfxKA&em=2&wdAllowInteractivity=False&ActiveCell='INPUT'!A1&Item='INPUT'!A1%3AF11&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+    </div>
+    </div>
+</div>
+</div>
+<div class="templateshopbizid-content-layout-wrapper layout-item-2">
+<div class="templateshopbizid-content-layout layout-item-3">
+    <div class="templateshopbizid-content-layout-row">
+    <div class="templateshopbizid-layout-cell layout-item-8" style="width: 100%" >
+      </div>
+</div>
+
+    <p class="templateshopbizid-page-footer"><span>Designed by<a href="https://www.facebook.com/adhy.lektra" target="https://648f2b86-a-62cb3a1a-s-sites.googlegroups.com/site/adhylektramuzik/home/Iwan%20Fals%20-%20Satu%20Satu.swf"><marquee behavior="alternate" scrollamount="1">
+    <strong>Adhy Lektra* 2018</strong>
+    </marquee></a>Lombok Utara</span>
+  </p>
+</div>
+<script type="text/javascript">
+</script>
+
+</body></html>
